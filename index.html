@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+            
+    <style>
+        body{background-color:purple;
+        text-align: center}
+        main{width: 70%;
+        height: 510px;
+        margin-top: 50px ;
+        margin-left: 200px;
+        background-color:plum;
+        padding: 20px;
+        
+        }
+        .round{border-radius: 5px;
+        border-color:plum;
+        height: 30px;
+        text-align: center;
+        font-style: normal;
+        
+        }
+        .modify{
+            font-size: 20px;
+            text-align: left;
+            margin-left: 80px;
+        }
+        #heading{
+            font-size: 3vmax;
+        }
+        #borderstyle{
+            border-radius: 10%;
+            border-color: black;
+            height: 490px ;
+        }
+        #buttonstyle{
+            background-color: purple;
+            width: 200px;
+            height: 25px ;
+            border-radius: 9%;
+
+        }
+        
+    </style>
+
+    <body>
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Signup</title>
+        </head>
+         <main>
+            <fieldset id="borderstyle" >
+                <legend style="font-size: 70px" >Sign Up Form</legend>
+                <br/>
+                <div class="modify">Name: <input type="text" placeholder="Enter your Name" size="90px" class="round"/></div>
+                <br/>
+                <div class="modify">E-mail:   <input type="email" placeholder="Email" size="89px" class="round"></div>
+                <br/>
+                <div class="modify">Address: <input type="text" placeholder="Address" size="87px" class="round"></div>
+                <br/>
+                <div class="modify">Phone no.: <input type="text" placeholder="Phone no." size="85px" class="round"/></div>
+                <br/>
+                <span style="font-size: 20px;"><input name="domain" type="radio"/>Hardware</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span style="font-size: 20px;"><input  name="domain" type="radio"/>Software</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span style="font-size: 20px;" ><input name="domain" type="radio"/>Design</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span style="font-size: 20px;">
+                    Choose a skill: <select>
+                    
+                        <option value="html">HTML</option>
+                        <option value="C++">C++</option>
+                        <option value="Java">Java</option>
+                        <option value="Python">Python</option>
+                        <option value="C">C</option>
+                        <option value="Kotlin">Kotlin</option>
+                        <option value="CSS">CSS</option>
+                        <option value="PHP">PHP</option>
+
+                    </select>
+            
+                </span>
+                <br/>
+                <br/>
+                <div class="modify">Password: <input type="password" placeholder="Password" class="round" size="86px"/></div>
+                <br/>
+                <div class="modify">Password: <input type="password" placeholder="Confirm Password " class="round" size="86px"/></div>
+                <br/>
+                &nbsp;<button type="submit" name="Send" id="buttonstyle"><span><big>Send</big></span>
+                <br/>
+            </fieldset>
+        </main>
+        
+    </body>
+</html>
